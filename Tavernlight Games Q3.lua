@@ -32,7 +32,7 @@
     them that member removal was successful. If it is
     false, we will state that a player with the
     inputted name was not found in their party.
---]]
+]]--
 
 -- Remove member from player party by name
 function removePlayerPartyMember(playerId, membername)

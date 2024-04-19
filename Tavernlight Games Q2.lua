@@ -28,7 +28,7 @@
     At the end of the repeat-until loop, we use 
     result.free to reset the global storeQuery 
     variable for later use.
---]]
+]]--
 
 -- Print names of all guilds with less than memberCount max members
 function printSmallGuildNames(memberCount)

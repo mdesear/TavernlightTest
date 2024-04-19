@@ -22,7 +22,7 @@
     variable for ease of access. With this, the ID 
     can be changed whenever necessary by changing a 
     single variable.
---]]
+]]--
 
 -- Free player storage on logout
 function onLogout(player)
