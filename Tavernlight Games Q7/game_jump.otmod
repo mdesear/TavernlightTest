@@ -1,0 +1,10 @@
+Module
+  name: game_jump
+  description: Module for Tavernlight trial
+  author: Misha Desear
+  website: http://github.com/mdesear
+  sandboxed: true
+  autoload: true
+  scripts: [ game_jump ]
+  @onLoad: init()
+  @onUnload: terminate()
