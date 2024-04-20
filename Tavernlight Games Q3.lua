@@ -60,8 +60,8 @@ function removePlayerPartyMember(playerId, membername)
 
     -- Send a message stating whether or not removal was a success
     if matchFound then
-        player:sendTextMessage(MESSAGE_EVENT_ADVANCE, membername .. "has been removed from the party.")
+        player:sendTextMessage(MESSAGE_EVENT_ADVANCE, membername .. " has been removed from the party.")
     else
-        player:sendTextMessage(MESSAGE_EVENT_ADVANCE, membername .. "is not a part of your party.")
+        player:sendTextMessage(MESSAGE_EVENT_ADVANCE, membername .. " is not a part of your party.")
     end
 end
